@@ -97,7 +97,7 @@ echo "Which sources do you want to update? Enter a combination of letters (e.g. 
 echo "[N] nala    [F] flatpak    [S] snap    [A] all    [Q] quit"
 read -p "Your choice: " choice
 
-choice="${choice^^}"  # convert to uppercase
+choice="${choice^^}"
 
 # Selection flags
 UPDATE_NALA=false
